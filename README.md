@@ -38,7 +38,12 @@ You can access the database [here](https://sqliteonline.com/#fiddle=333b56f2bab0
 
         ![ERD](./diagrams/max_apple_price.png)
 
-2) Look at the details for so_nnumber = 1237. Notice there is only one line item, but it has been updated. Write a statement to show
-    - the most recent version of this line item
+2) Look at the details for so_nnumber = 1237. Notice there is only one line item, but it has been updated. 
 
-        ![ERD](./diagrams/most_recent_line.png)
+    ![ERD](./diagrams/duplicated_lines.png)
+
+Write a statement to show
+
+- the most recent version of this line item
+
+    ![ERD](./diagrams/most_recent_line.png)
