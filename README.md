@@ -32,11 +32,11 @@ You can access the database [here](https://sqliteonline.com/#fiddle=333b56f2bab0
         ![ERD](./diagrams/SO_1234_details.png)
     - the total invoice price for each service order
 
-        ![ERD](./diagrams/SO_1234_details.png)
+        ![ERD](./diagrams/order_totals.png)
 
     - the max price paid for an Apple
 
-        ![ERD](./diagrams/SO_1234_details.png)
+        ![ERD](./diagrams/max_apple_price.png)
 
 2) Look at the details for so_nnumber = 1237. Notice there is only one line item, but it has been updated. Write a statement to show
     - the most recent version of this line item
