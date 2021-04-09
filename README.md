@@ -38,7 +38,7 @@ You can access the database [here](https://sqliteonline.com/#fiddle=333b56f2bab0
 
         ![ERD](./diagrams/max_apple_price.png)
 
-2) Look at the details for so_nnumber = 1237. Notice there is only one line item, but it has been updated. 
+2) Look at the details for so_number = 1237. Notice there is only one line item, but it has been updated. 
 
     ![ERD](./diagrams/duplicated_lines.png)
 
