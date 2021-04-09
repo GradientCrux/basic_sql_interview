@@ -2,7 +2,7 @@
 
 ## SQL Exercise
 
-We have an online grovery store. Customers can order grocery items and they receive a bill for their order that looks like this:
+We have an online grocery store. Customers can order grocery items and they receive a bill for their order that looks like this:
 
 ![Image of SO](./diagrams/SO_Example.png)
 
@@ -19,7 +19,7 @@ You can access the database [here](https://sqliteonline.com/#fiddle=333b56f2bab0
 
     - all service order numbers with the customer name
 
-        ![ERD](./diagrams/so_headers.png)
+        ![ERD](./diagrams/so_number_customer.png)
 
     - service order 1234 details 
         - service order number
