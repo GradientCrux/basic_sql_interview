@@ -13,15 +13,15 @@ The data is contained in a SQLITE database.
 You can access the database [here](https://sqliteonline.com/#fiddle=9972873654795311a0d22a1ef056e64353e4b41271de92f929a94f613c17660e).
 
 1) Write a sql statement to show 
-    - all service order headers *(hint - simple select)*
+    - all service order headers 
 
         ![ERD](./diagrams/so_headers.png)
 
-    - all service order numbers with the customer name *(hint - simple join)*
+    - all service order numbers with the customer name 
 
         ![ERD](./diagrams/so_number_customer.png)
 
-    - service order 1234 details *(hint - multiple joins and a where stmt)*
+    - service order 1234 details 
         - service order number
         - customer name
         - product name
@@ -30,7 +30,7 @@ You can access the database [here](https://sqliteonline.com/#fiddle=997287365479
         - total for the line
 
         ![ERD](./diagrams/SO_1234_details.png)
-    - the total invoice price for each service order *(hint - simple aggregation)*
+    - the total invoice price for each service order 
 
         ![ERD](./diagrams/order_totals.png)
 
