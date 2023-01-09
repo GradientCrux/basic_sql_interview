@@ -22,16 +22,16 @@ Below is a diagram of the relationships of between the tables.
 
 
 
-1) Write a sql statement to show 
-    - all service order headers 
+1) Write a sql statement to show the **exact** table output as shown below
+    -All service order headers 
 
         ![ERD](./diagrams/so_headers.png)
 
-    - all service order numbers with the customer name 
+    - All service order numbers with the customer name 
 
         ![ERD](./diagrams/so_number_customer.png)
 
-    - service order 1234 details 
+    - Service order 1234 details 
         - service order number
         - customer name
         - product name
@@ -40,11 +40,11 @@ Below is a diagram of the relationships of between the tables.
         - total for the line
 
         ![ERD](./diagrams/SO_1234_details.png)
-    - the total invoice price for each service order 
+    - The total amount paid for each service order 
 
         ![ERD](./diagrams/order_totals.png)
 
-    - the max price paid for an Apple
+    - The max price paid for an Apple
 
         ![ERD](./diagrams/max_apple_price.png)
 
@@ -54,6 +54,6 @@ Below is a diagram of the relationships of between the tables.
 
 Write a statement to show
 
-- the most recent version of this line item
+- The most recent version of this line item
 
     ![ERD](./diagrams/most_recent_line.png)
