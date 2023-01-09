@@ -15,6 +15,7 @@ The data for this exercise is contained in a SQLITE database that you will need 
 We have an online grocery store. Customers can order grocery items and they receive a bill for their order that looks like this:
 
 ![Image of SO](./diagrams/SO_Example.png)
+
 Below is a diagram of the relationships of between the tables. 
 
 ![ERD](./diagrams/ERD.png)
