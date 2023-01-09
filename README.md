@@ -1,16 +1,25 @@
-# interviews
+# Interview
+
+## Setup 
+
+
+
+The data for this exercise is contained in a SQLITE database that you will need to load. You can do so by:
+1. Cloning this repository to your local environment (HTTPS is easiset). 
+2. Navigating to [sqliteonline.com](https://sqliteonline.com/)
+3. Clicking File > Open DB and uploading the file from this repository "basic_sql_interview/sqlite/interview_exercise.db"
+![Image of Load](./diagrams/upload_db_image.png)
+
 
 ## SQL Exercise
-
 We have an online grocery store. Customers can order grocery items and they receive a bill for their order that looks like this:
 
 ![Image of SO](./diagrams/SO_Example.png)
-
-The data is contained in a SQLITE database. 
+Below is a diagram of the relationships of between the tables. 
 
 ![ERD](./diagrams/ERD.png)
 
-You can access the database [here](https://sqliteonline.com/#fiddle=9972873654795311a0d22a1ef056e64353e4b41271de92f929a94f613c17660e).
+
 
 1) Write a sql statement to show 
     - all service order headers 
